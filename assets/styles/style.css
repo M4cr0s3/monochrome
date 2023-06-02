@@ -1,0 +1,461 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --container-1170: 1170px;
+    --text-color: #0d0d0d;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcsa {
+    justify-content: space-around;
+}
+
+.jcend {
+    justify-content: end;
+}
+
+.col-xl-6 {
+    width: 50%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-xl-7 {
+    width: 66.77777777777%;
+}
+
+.col-xl-5 {
+    width: 43.33333%;
+}
+
+.col-xl-3 {
+    width: 21.33333%;
+}
+
+.text-white {
+    color: white;
+}
+
+.col-xl-4 {
+    width: calc(100% / 3);
+}
+
+.col-xl-9 {
+    width: 70%;
+}
+
+.mt-6 {
+    margin-top: 5rem;
+}
+
+.text-end {
+    text-align: end;
+}
+
+body {
+    background: #fafafa;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+
+.header-upper {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.container {
+    width: var(--container-1170);
+    margin: 0 auto;
+}
+
+.switch-lan {
+    margin-left: .65rem;
+}
+
+.logo h1 {
+
+}
+
+.header-down {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--text-color);
+}
+
+.nav-links {
+    gap: 40px;
+}
+
+.nav-links a {
+    font-size: 1rem;
+}
+
+.title {
+    font-size: 8.625rem;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.title-desc {
+    display: flex;
+    align-items: end;
+    padding-bottom: 30px;
+    padding-left: 60px;
+}
+
+.mono-cont {
+    margin-top: 4rem;
+}
+
+.categories {
+    padding: 10rem 0;
+}
+
+.cat-title {
+    font-size: 4.8rem;
+    text-transform: uppercase;
+}
+
+.category-card {
+    margin-top: 5rem;
+}
+
+.category-title {
+    font-size: 1.375rem;
+}
+
+.nigger {
+    background: url(../img/6.jpg) center no-repeat;
+    background-size: cover;
+    padding: 7.5rem 0 35rem 0;
+}
+
+.nigger-desc {
+    text-align: center;
+    padding: 0 20%;
+    margin-top: .5rem;
+}
+
+.btn-catalog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5rem;
+    padding: 15px 40px;
+    background: #ffffff;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.new {
+    padding: 10rem 0;
+}
+
+.container-colours {
+    margin-top: 5rem;
+}
+
+.new .category-card {
+    margin-top: 0;
+}
+
+.cards {
+    padding: 0 0 7.5rem 0;
+}
+
+.photo-card {
+    padding-top: 10px;
+}
+
+.cards .title {
+    font-size: 3.25rem;
+}
+
+.rating-count {
+    margin-left: .45rem;
+}
+
+.card-desc {
+    font-size: 1.375rem;
+    margin-top: 2rem;
+}
+
+.cards form {
+    margin-top: 2rem;
+}
+
+.select {
+    position: relative;
+    width: 100%;
+}
+
+.form-select {
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, .3);
+    padding: 15px 18px;
+    color: rgba(128, 128, 128, .8);
+    margin-top: .5rem;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+}
+
+.arrow_down {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.size-table {
+    text-decoration: underline;
+}
+
+.cards .price {
+    font-size: 2.5rem;
+}
+
+.form-control {
+    margin-top: 0;
+}
+
+.cards .row {
+    margin-top: 3rem;
+}
+
+.cards .btn-catalog {
+    margin-top: 2.6rem;
+    background-color: var(--text-color);
+    color: white;
+    padding: 20px;
+}
+
+.desc {
+    margin-top: 3.25rem;
+    width: 100%;
+    position: relative;
+}
+
+.desc::after {
+    content: '';
+    width: 60%;
+    height: 1px;
+    background-color: #9b9b9b;
+    position: absolute;
+    top: 30px;
+}
+
+.desc-links {
+    color: #9b9b9b;
+    font-size: 1rem;
+}
+
+.active {
+    color: var(--text-color);
+}
+
+.desc-links.active {
+    position: relative;
+}
+
+.desc-links.active::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: var(--text-color);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 3;
+}
+
+.desc-text {
+    margin-top: 2.5rem;
+    font-size: 1rem;
+}
+
+.desc nav {
+    width: 60%;
+}
+
+.advantages {
+    background: var(--text-color);
+    padding: 3.25rem 0;
+}
+
+.advantage-card {
+}
+
+.advantage-img {
+    margin-bottom: 2rem;
+}
+
+.advantage-title {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about-us {
+    padding: 10rem 0;
+}
+
+.about-us .title {
+    margin-bottom: 3rem;
+}
+
+.about-us .title-desc {
+    padding: 0 0 30px 0;
+}
+
+.sub {
+    padding: 7.5rem 0;
+    background-color: var(--text-color);
+}
+
+.sub .category-title {
+    padding: 0 40px 0 0;
+}
+.photo-sub {
+    margin-top: 5.25rem;
+}
+
+.photo-sub img {
+    margin-top: 2.5rem;
+}
+
+.sub form {
+    align-items: end;
+}
+
+.form-label {
+    text-align: start;
+    width: 90%;
+    color: white;
+    margin-bottom: .5rem;
+}
+
+.sub .form-control{
+    outline: none;
+    border: 1px solid #555555;
+    background: none;
+    padding: 15px;
+    color: white;
+    margin-bottom: 1rem;
+    width: 90%;
+}
+
+.sub span.text-white {
+    width: 90%;
+    text-align: start;
+    margin-bottom: 1.2rem;
+}
+
+.radios {
+    width: 90%;
+}
+
+.label-radio {
+    margin: 0;
+}
+
+.radio-el {
+    display: inline-block;
+}
+
+.radio-el input[type=radio] {
+    display: none;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: white;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.check-el {
+    width: 90%;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+.check-el input{
+    margin-right: .75rem;
+}
+
+.sub .btn-catalog {
+    width: 90%;
+}
